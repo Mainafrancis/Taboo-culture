@@ -1,2 +1,2 @@
 # Taboo-culture
-This is my demo simply illustrating about the ghananian culture on traditional accent.
+This is my demo simply illustrating about the ghanian culture on traditional accent.
