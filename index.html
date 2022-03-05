@@ -36,16 +36,38 @@
 
     <section id="form">
         <h1 class="headings">FORM</h1>
-            <form class="myform" onsubmit="return getAkanName()">
-            <input type="number" id="year-input" value="" name="year-of-birth" class="input" placeholder="YYY">
-            <input type="number" id="month-input" value="" name="month-of-birth" class="input" placeholder="MM">
-            <input type="number" id="day-input" value="" name="day-of-birth" class="input" placeholder="DD">
-            <input type="radio" id="male-input" name="gender" value="male" class="input" placeholder="male">
-            Male
-            <input type="radio" id="female-input" name="gender" value="female" class="input" placeholder="female">
-            Female
-            <input type="submit" id="get-name" value="Generate-name" id="submit">
+        <form class="myform" onsubmit="getAkanName()">
+            <label for="year-of-birth">
+              Year:
+              <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+            </label>
+            <label for="month-of-birth">
+              Month:
+              <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+            </label>
+            <label for="day-of-birth">
+              Day:
+              <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+            </label>
+            <br>
+            <label for="gender">
+              <p>Select your gender: </p>
+              Male
+              <input id="male-input" type="radio" name="gender" value="male" required>
+              Female
+              <input id="female-input" type="radio" name="gender" value="female" required>
+  
+            </label>
+            <br><br>
+            <input id="get-name" type="submit" name="" value="Generate name">
+            <br><br>
+          </form>
+          <form onsubmit="clearInput()">
+            <input class="clear" type="submit" value="Clear input">
         </form>
+
+        <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
+        <p id="result"></p>
     </section>
 
 
