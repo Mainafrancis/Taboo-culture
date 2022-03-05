@@ -43,3 +43,20 @@ function dayValidator(){
     }
 
 }
+var monthValid=monthValidator();
+var dayValid=dayValidator();
+
+var dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
+
+var daysOfWeek = [
+    "Sunday","Monday","Wednesday","Thursday","Friday","Saturday"
+];
+
+var maleAkanNames = [
+    "Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"
+];
+
+var femaleAkanNames = [
+    "Akosua","Adowa","Abenaa","Akua","Yaa","Afua","Ama"
+];
+
