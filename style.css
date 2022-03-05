@@ -38,7 +38,7 @@
     height: 840px;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: black;
 }
 #home::before{
     content: "";
@@ -50,4 +50,43 @@
     width: 100%;
     z-index: -1;
     opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+.headings{
+    font-family: century;
+    font-size: 6rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: brown;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: aqua;
+    box-shadow: 0 0 5px red, 0 0 10px blue, 0 0 15px green;
+    font-weight: bold;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
 }
