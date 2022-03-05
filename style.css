@@ -82,11 +82,18 @@
 #about{
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: brown;
 }
-#pic{
+#intro{
     display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
 }
-#pic img{
-    width: 575px;
-    height: 400px;
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
