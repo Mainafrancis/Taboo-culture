@@ -36,11 +36,15 @@
 
     <section id="form">
         <h1 class="headings">FORM</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter you name">
-            <input type="text" date="date" class="input" placeholder="Enter you birth date">
-            <input type="text" gender="gender" class="input" placeholder="gender">
-            <input type="submit" value="SUBMIT" id="submit">
+        <form action="" class="myform" onsubmit="return getAkanName()">
+            <input type="number" id="year-input" value="" name="year-of-birth" class="input" placeholder="YYY">
+            <input type="number" id="month-input" value="" name="month-of-birth" class="input" placeholder="MM">
+            <input type="number" id="day-input" value="" name="day-of-birth" class="input" placeholder="DD">
+            <input type="radio" id="male-input" name="gender" value="male" class="input" placeholder="male">
+            Male
+            <input type="radio" id="female-input" name="gender" value="female" class="input" placeholder="female">
+            Female
+            <input type="submit" id="get-name" value="Generate-name" id="submit">
         </form>
     </section>
 
@@ -49,6 +53,6 @@
 
 
 
-
+   <script src="script.js"></script>
 </body>
 </html>
