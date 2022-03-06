@@ -1,15 +1,15 @@
 # Taboo-culture
 This is my demo simply illustrating about the ghananian culture on traditional accent.
 
-Author
+### Author
 
            Francis Mwangi
 
-Description
+## Description
 
       Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. This app will take in a user's year of birth, month of birth, day of birth and select gender. Using a formula assigned to a variable in the akan.js file (dayOfWeekNumber), it will be possible to determine the exact day of the week the user was born and give them an Akan name based on their gender.
 
-Features
+## Features
 
 Here are the features in summary:
 
@@ -23,7 +23,7 @@ Here are the features in summary:
 
       Output Akan name.
 
-Installation and Set-up
+## Installation and Set-up
 
 To view the app, open the Github Pages link provided below on the README. Here is a run through of how to set up the application
 
@@ -33,11 +33,11 @@ To view the app, open the Github Pages link provided below on the README. Here i
 
      Step 3 : Open the index.html file to view the application on your preferred web browser
 
-Known Bugs
+## Known Bugs
 
-Formula provided to determine day of birth shows inconsistency in its results (Bug fixed)
+No bugs present in the project.
 
-TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
     HTML-which was used to structure the webpage.
 
@@ -45,7 +45,7 @@ TECHNOLOGIES USED
 
     Javascript-which was used to make the webpage functional.
 
-Support and contact details
+## Support and contact details
 
 You can provide feedback or raise any issues/ bugs through the following means:
 
@@ -53,11 +53,11 @@ You can provide feedback or raise any issues/ bugs through the following means:
 
       Slack me (Moringa-School) @Francis Mwangi
 
-Github Pages link
+## Github Pages link
 
       You can view the live application by following this link https://mainafrancis.github.io/taboo-culture/
 
-License
+## License
 
 MIT License
 
