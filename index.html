@@ -36,7 +36,7 @@
 
     <section id="form">
         <h1 class="headings">FORM</h1>
-        <form class="myform" onsubmit="getAkanName()">
+        <form class="myform" onsubmit="return getAkanName()">
             <label for="year-of-birth">
               Year:
               <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
@@ -62,12 +62,12 @@
             <input id="get-name" type="submit" name="" value="Generate name">
             <br><br>
           </form>
-          <form onsubmit="clearInput()">
+          <form onsubmit="return clearInput()">
             <input class="clear" type="submit" value="Clear input">
-        </form>
+          </form>
 
         <h4 id ="display-name"><strong>Your Akan name will be displayed below:</strong></h4>
-        <p id="result"></p>
+        <p id="result">Black and white</p>
     </section>
 
 

@@ -5,7 +5,7 @@ function getAkanName(){
     var gender=document.getElementsByName("gender");
 
 function getGender(){
-    for(let gen of genders){
+    for(let gen of gender){
         if(gen.checked){
             return gen.value;
         }
@@ -88,4 +88,3 @@ if (myGenderValue == "male" && monthValid && dayValid) {
     alert("You entered an invalid day or month,please try again");
   }
 }
- 
